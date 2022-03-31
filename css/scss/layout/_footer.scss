@@ -1,0 +1,106 @@
+.footer{
+    background: #fff;
+
+}
+.footer .box-container{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(25rem,1fr));
+        gap: 1.5rem;
+    
+    }
+    .footer .box h3{
+        font-size: 3rem;
+        font-weight: bold;
+       color: #130f40;
+    }
+    .footer .box p{
+        color: #666;
+        font-size: 1rem;
+    }
+    .footer .box .share a{
+        display: inline-block;
+        background: #666;
+        width: 4rem;
+        height: 4rem;
+        border-radius: .5rem;
+        line-height: 4rem;
+    }
+    .footer .box .share a:hover{
+      
+        background: #ff7800;
+        color: #fff;
+    }
+    .footer .box .phone a{
+        display: block;
+        font-size: 1.5rem;
+        color:#666;
+        padding: 1rem 0;
+        text-decoration: none;
+    }
+    .footer .box .phone a i{
+       
+        font-size: 1.5rem;
+        color:#ff7800;
+        padding-right: 5rem;
+    }
+    .footer .box .phone a:hover i{
+        padding-right: 2rem;
+    }
+
+    .footer .box .share .email{
+        margin: 2rem 0;
+        padding: 2rem;
+        border-radius: 5rem;
+        background: #eee;
+        font-size: 1.6rem;
+        color: #130f40;
+        
+
+    }
+    .footer .box .share .btn{
+        padding: 2rem ;
+        border-radius: 2rem;
+        margin-top: 3rem;
+        background: #eee;
+        font-size: 1.6rem;
+        color: #130f40;
+        display: block;
+        margin-left: 9rem;
+
+    }
+    .footer .box .share .btn:hover {
+        background: #ff7800;
+        color: #fff;
+    }
+    .footer .credit{
+        text-align: center;
+        margin-top: 1rem;
+        padding: 2rem;
+        padding-top: 2.5rem;
+        font-size: 2.5rem;
+        color: #130f40;
+        border-top:1px solid #666;
+    }
+    .footer .credit span{
+        color: #ff7800;
+    }
+
+
+    @media(max-width:767px){
+        .footer .box h3{
+        text-align: center;
+        padding-left: 4rem;
+           
+        }
+        .footer .box .share .btn{
+    align-items: center;
+    border: none;
+    margin-left: 40%;
+
+    
+        }
+    }
+
+  
+
+

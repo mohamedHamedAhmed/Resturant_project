@@ -1,0 +1,142 @@
+section{
+    padding: 2rem 9%;
+}
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7%;
+    background-image: url(../img/img1.jpg);
+    padding: 15rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+ 
+}
+.content{
+    text-align: center;
+    span{
+    color: #ff7800;
+    font-weight: bold;
+    font-size: 30px;
+}
+h3{
+    color: #130f40;
+    font-size: 3rem;
+
+}
+p{
+    color: #666;
+    font-size: 1.7rem;
+    line-height: 1.8rem;
+    padding-right: 6rem 0;
+    max-width: 100%;
+    text-align: center;
+}
+a{
+    width: 20px;
+    height: 20;
+    background-color: #fff;
+    border: 2px solid #130f40;
+    padding: 12px;
+    text-decoration: none;
+    color: #666;
+    margin: 2rem 0;
+    &:hover{
+        background: #ff7800;
+    }
+}
+}
+
+@media(max-width:767px){
+    section{
+        padding: 1rem;
+    }
+    h3{
+        font-size:12rem;
+        padding-right: 2rem;
+       
+    }
+    span{
+        font-size: 15px;
+    
+    }
+    p{
+        color: #666;
+        font-size: .5rem;
+        line-height: 1rem;
+        padding: 1rem 0;
+        max-width: 60rem;
+    }
+
+
+}
+//features section
+.heding{
+    text-align: center;
+    padding: 2rem 0;
+    padding-bottom: 3rem;
+    font-size: 3.5rem;
+    color: #666;
+}
+.heding span{
+background:#ff7800; 
+color: #fff;
+display: inline-block;
+padding: 1rem 3rem;
+clip-path: polygon(100% 0, 93% 50%,100% 99%,0% 100%,7% 50%,0% 0%);
+}
+.box-container{
+display: grid;
+grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+gap: 1.5rem;
+text-align: center;
+}
+
+.box2 img{
+    width: 250px;
+    height: 250px;
+    margin: 1rem 0;
+    
+}
+.box2{
+    padding: 3rem 2rem;
+    background: #fff;
+ 
+    box-shadow:0 .5rem 1rem rgba(0,0,0,1);
+    &:hover{
+          outline: .2rem solid rgba(0,0,0,1);
+    outline-offset: -1rem; 
+    }
+}
+.box2 a{
+    width: 20px;
+    height: 20;
+    background-color: #fff;
+    border: 2px solid #130f40;
+    padding: 12px;
+    text-decoration: none;
+    color: #666;
+    margin: 2rem 0;
+    &:hover{
+        background: #ff7800;
+    }
+}
+.box2 h3{
+    font-size: 2.5rem;
+    line-height: 1.8;
+    color: #130f40;
+    text-align: center;
+    
+}
+.box2 p{
+    font-size: 1.3rem;
+    line-height: 1.8;
+    color: #666;  
+}
+@media(max-width:767){
+    .box2 h3{
+      padding-left: 2rem;
+        text-align: center;
+    }
+}
